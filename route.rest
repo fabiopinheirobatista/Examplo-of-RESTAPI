@@ -1,0 +1,23 @@
+### acessando via GET
+GET http://localhost:3000/subscribers
+### 
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "username": "Priscila Rodrigues",
+    "userchannel": "RedeTV"
+}
+###
+GET http://localhost:3000/subscribers/609ad0bab29f641c60f44e60
+###
+DELETE http://localhost:3000/subscribers/609ad0c6b29f641c60f44e62
+###
+PATCH http://localhost:3000/subscribers/609ad0c4b29f641c60f44e61
+Content-Type: application/json
+
+{
+    "username": "Carlos César",
+    "userchannel": "Univer Video"
+}
+###
